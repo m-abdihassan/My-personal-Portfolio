@@ -63,7 +63,7 @@ const Home = () => {
         <Contact />
       </section>
 
-      <section id="Footer">
+      <section id="footer">
      
        <Footer/>
       </section>
