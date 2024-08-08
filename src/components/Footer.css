@@ -1,0 +1,35 @@
+/* src/components/Footer.css */
+.footer {
+    
+    color: #1a1616;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-contact {
+    margin: 10px 0;
+  }
+  
+  .footer-contact a {
+    color: #0c0b0b;
+    text-decoration: none;
+  }
+  
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    margin: 20px 0;
+  }
+  
+  .footer-social a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .footer-social img {
+    width: 24px;
+    height: 24px;
+  }
+  

@@ -1,0 +1,66 @@
+/* Header.css */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Full viewport height */
+    background-color: #f4f4f4; /* Light background color */
+    padding: 0 20px; /* Add some padding on sides */
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px; /* Maximum width for large screens */
+  }
+  
+  .text-section {
+    text-align: center;
+    margin-right: 20px; /* Space between text and image */
+  }
+  
+  h1 {
+    font-size: 3rem; /* Adjust font size as needed */
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.25rem; /* Adjust font size as needed */
+    margin: 10px 0;
+  }
+  
+  .highlight {
+    color: #007bff; /* Highlight color */
+  }
+  
+  .resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for button */
+    font-weight: bold;
+    font-size: 1rem; /* Font size for the button */
+  }
+  
+  .resume-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    max-width: 150px; /* Size of the image */
+    height: auto;
+    border-radius: 50%; /* Circular image */
+    border: 2px solid #007bff; /* Optional: border around the image */
+  }
+  
